@@ -1,0 +1,13 @@
+# =====================================
+# whitelist searchable "hidden" files for ripgrep
+# =====================================
+# gitlab CI config
+!.gitlab-ci.yml
+# pre-commit config
+!.pre-commit-config.yaml
+
+# =====================================
+# always ignore
+# =====================================
+# nvim config
+.stardog.json
